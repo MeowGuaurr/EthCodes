@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "retrieveNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "setNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AlmacenamientoSimple.sol": "AlmacenamientoSimple"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AlmacenamientoSimple.sol": {
+			"keccak256": "0xd1c3e0b915f4ddc8cff6d28f6a2f9718c12d27ff36c42a62457d39f949202e8f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e4ebfb8484d4e0445333aec461e0fa5b5090e454497beff2c282330d6f9c609e",
+				"dweb:/ipfs/QmWgC6BALzoYwbWM3bpgTeqdBzWWqwPB5Lu72iNXEwZmPL"
+			]
+		}
+	},
+	"version": 1
+}
